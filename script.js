@@ -10,8 +10,8 @@ const prijmeni = prompt("Zadejte Vaše příjmení (bez diakritiky):").trim()
 console.log(jmeno)
 console.log(prijmeni)
 
-const jmenoCast = jmeno.slice(0, 3).toLocaleLowerCase()
-const prijmeniCast = prijmeni.slice(0, 5).toLocaleLowerCase()
+const jmenoCast = jmeno.slice(0, 3).toLowerCase()
+const prijmeniCast = prijmeni.slice(0, 5).toLowerCase()
 
 console.log(jmenoCast)
 console.log(prijmeniCast)
